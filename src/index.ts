@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
   res.send("Hello world!");
 });
 
-app.get("/status", (req, res) => ({ status: "Up" }));
+app.get("/status", (req, res) => res.send({ status: "UP" }));
 
 // start the Express server
 app.listen(port, () => {
