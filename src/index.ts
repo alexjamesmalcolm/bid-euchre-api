@@ -7,6 +7,8 @@ app.get("/", (req, res) => {
   res.send("Hello world!");
 });
 
+app.get("/status", (req, res) => ({ status: "Up" }));
+
 // start the Express server
 app.listen(port, () => {
   console.log(`server started at http://localhost:${port}`);
