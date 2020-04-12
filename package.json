@@ -25,7 +25,9 @@
     "node": "13.x"
   },
   "dependencies": {
+    "@types/compression": "^1.7.0",
     "@types/express": "^4.17.6",
+    "compression": "^1.7.4",
     "express": "^4.17.1",
     "tslint": "^6.1.1",
     "typescript": "^3.8.3"
