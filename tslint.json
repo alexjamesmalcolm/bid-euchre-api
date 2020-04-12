@@ -6,5 +6,6 @@
     "trailing-comma": [false],
     "no-console": [false, "log", "warn"]
   },
-  "rulesDirectory": []
+  "rulesDirectory": [],
+  "linterOptions": { "exclude": ["src/GameEngine/**/*"] }
 }
